@@ -12,3 +12,11 @@ if (excesso >= 1):
     print("A multa por excesso foi: R$",total)
 else:
     print("Não houve excesso")
+
+
+#Pedir ao usuário dois números inteiros e um real
+
+num1= int(input("Informe o primeiro número inteiro"))
+num2= int(input("Informe o segundo número inteiro"))
+
+real= float(input("Informe um número real"))
