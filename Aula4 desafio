@@ -1,0 +1,14 @@
+#Permitido limite de 50kg
+#Multa por kg excedido 4,00
+#Gravar na variável o excesso a quantidade de kg
+peso= float(input("Informe o peso:"))
+
+limite=  50
+excesso= peso - limite
+multa= 4
+
+if (excesso >= 1):
+    total = excesso * multa
+    print("A multa por excesso foi: R$",total)
+else:
+    print("Não houve excesso")
