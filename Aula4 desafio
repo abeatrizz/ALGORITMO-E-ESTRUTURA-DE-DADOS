@@ -13,10 +13,3 @@ if (excesso >= 1):
 else:
     print("Não houve excesso")
 
-
-#Pedir ao usuário dois números inteiros e um real
-
-num1= int(input("Informe o primeiro número inteiro"))
-num2= int(input("Informe o segundo número inteiro"))
-
-real= float(input("Informe um número real"))
