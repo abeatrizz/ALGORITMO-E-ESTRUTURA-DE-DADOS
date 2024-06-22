@@ -1,0 +1,44 @@
+def soma(n1, n2):
+    return n1+n2
+
+def subtrai(n1, n2):
+    return n1-n2
+
+def multiplica(n1, n2):
+    return n1*n2
+
+def divide(n1, n2):
+    if b != 0:
+        return n1/n2
+#erro caso a divisão seja por zero    
+    else:
+        print("Erro: Divisão por zero!")
+
+while True:
+    print("+===================+")
+    print("| MENU DE OPERAÇÕES |")
+    print("| 1- SOMAR          |")
+    print("| 2- SUBTRAIR       |")
+    print("| 3- MULTIPLICAR    |")
+    print("| 4- DIVIDIR        |")
+    print("| 0- SAIR           |")
+    print("+===================+")
+
+    op = int(input())
+    if op == 0:
+        break
+
+    n1 = int(input("Primeiro número: "))
+    n2 = int(input("Segundo número: "))
+
+    if op == 1:
+        print("O resultado da soma é: ", soma(n1, n2))
+    elif op == 2:
+        print("O resultado da subtração é: ", subtrai(n1, n2))
+    elif op == 3:
+        print("O resultado da multiplicação é: ", multiplica(n1, n2))
+    elif op == 4:
+        print("O resultado da divisão é: ", divide(n1, n2))
+#else para caso seja inserido um número maior que 4
+    else:
+        print("Digite um valor válido")
